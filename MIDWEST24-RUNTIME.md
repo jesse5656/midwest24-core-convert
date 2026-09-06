@@ -6,7 +6,8 @@ dependencies remain supplied by the upstream image.
 
 ## Build provenance
 
-- Midwest24 source commit: `e7e08ee5613822414db6c4afe0ea8caa1861f583`
+- Midwest24 application-branding commit: `e7e08ee5613822414db6c4afe0ea8caa1861f583`
+- Runtime image build commit: recorded at build time in the OCI label `com.midwest24.source_commit`
 - Upstream release baseline: `v0.18.0`
 - Upstream runtime image: `ghcr.io/c4illin/convertx@sha256:b515b04bfd25298a5cdc775b2fcd48b9399bab658ce13e2598b65df1b16098c8`
 - Midwest24 runtime tag: `midwest24-core-convert:0.18.0-midwest24.1`

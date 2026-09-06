@@ -10,7 +10,7 @@ dependencies remain supplied by the upstream image.
 - Runtime image build commit: recorded at build time in the OCI label `com.midwest24.source_commit`
 - Upstream release baseline: `v0.18.0`
 - Upstream runtime image: `ghcr.io/c4illin/convertx@sha256:b515b04bfd25298a5cdc775b2fcd48b9399bab658ce13e2598b65df1b16098c8`
-- Midwest24 runtime tag: `midwest24-core-convert:0.18.0-midwest24.1`
+- Midwest24 runtime tag: `midwest24-core-convert:0.18.0-midwest24.2`
 
 ## Persistent data contract
 

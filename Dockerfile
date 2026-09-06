@@ -1,5 +1,7 @@
 FROM debian:testing-slim AS base
-LABEL org.opencontainers.image.source="https://github.com/C4illin/ConvertX"
+LABEL org.opencontainers.image.source="https://github.com/jesse5656/midwest24-core-convert"
+LABEL org.opencontainers.image.title="Midwest24 Core Convert"
+LABEL org.opencontainers.image.version="0.18.0-midwest24.1"
 WORKDIR /app
 
 # install bun
@@ -44,7 +46,7 @@ RUN bun run build
 # copy production dependencies and source code into final image
 FROM base AS release
 
-# install additional dependencies 
+# install additional dependencies
 RUN apt-get update && apt-get install -y \
   assimp-utils \
   calibre \
